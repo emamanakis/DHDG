@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/daveshig/public_html
-    - /bin/cp -R DHDG $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
